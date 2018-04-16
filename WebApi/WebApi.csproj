@@ -206,6 +206,10 @@
     <Compile Include="Migrations\201804161201100_DefaultDatabaseColumnChanged.Designer.cs">
       <DependentUpon>201804161201100_DefaultDatabaseColumnChanged.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201804161206468_DefaultDatabaseColumnChanged2.cs" />
+    <Compile Include="Migrations\201804161206468_DefaultDatabaseColumnChanged2.Designer.cs">
+      <DependentUpon>201804161206468_DefaultDatabaseColumnChanged2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\IdentityModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -289,6 +293,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201804161201100_DefaultDatabaseColumnChanged.resx">
       <DependentUpon>201804161201100_DefaultDatabaseColumnChanged.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804161206468_DefaultDatabaseColumnChanged2.resx">
+      <DependentUpon>201804161206468_DefaultDatabaseColumnChanged2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
