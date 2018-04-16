@@ -202,6 +202,10 @@
     <Compile Include="Migrations\201804161148359_DefaultDatabaseNamesChanged.Designer.cs">
       <DependentUpon>201804161148359_DefaultDatabaseNamesChanged.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201804161201100_DefaultDatabaseColumnChanged.cs" />
+    <Compile Include="Migrations\201804161201100_DefaultDatabaseColumnChanged.Designer.cs">
+      <DependentUpon>201804161201100_DefaultDatabaseColumnChanged.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\IdentityModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -282,6 +286,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201804161148359_DefaultDatabaseNamesChanged.resx">
       <DependentUpon>201804161148359_DefaultDatabaseNamesChanged.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804161201100_DefaultDatabaseColumnChanged.resx">
+      <DependentUpon>201804161201100_DefaultDatabaseColumnChanged.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
